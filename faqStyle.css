@@ -1,0 +1,143 @@
+body {
+    color: rgba(0, 0, 0, .75);
+    font-size: 16px;
+    font-family: Lato, Helvetica Neue, Helvetica, sans-serif;
+    font-variant-ligatures: common-ligatures;
+    line-height: 1.67;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.stackedit__left {
+    position: fixed;
+    display: none;
+    width: 250px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+}
+
+.stackedit__html {
+    margin-bottom: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 750px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 1.8em 0;
+    line-height: 1.33;
+}
+
+h1::after,
+h2::after {
+    content: "";
+    display: block;
+    position: relative;
+    top: .33em;
+    border-bottom: 1px solid hsla(0, 0%, 50%, .33);
+}
+
+blockquote,
+dl,
+ol,
+p,
+pre,
+ul {
+    margin: 1.2em 0;
+}
+
+b,
+strong {
+    font-weight: inherit;
+    font-weight: bolder;
+}
+
+code {
+    background-color: rgba(0, 0, 0, .05);
+    border-radius: 3px;
+    padding: 2px 4px;
+}
+
+code,
+pre,
+samp {
+    font-family: Roboto Mono, Lucida Sans Typewriter, Lucida Console, monaco, Courrier, monospace;
+    font-size: .85em;
+}
+
+code,
+kbd,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+a {
+    color: #0c93e4;
+    text-decoration: underline;
+    text-decoration-skip: ink;
+}
+
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+img {
+    max-width: 100%;
+}
+
+img {
+    border-style: none;
+}
+
+.stackedit__toc ul {
+    padding: 0;
+}
+
+.stackedit__toc li {
+    display: block;
+}
+
+.stackedit__toc ul ul {
+    color: #888;
+    font-size: .9em;
+}
+
+.stackedit__toc li {
+    display: block;
+}
+
+.stackedit__toc ul ul a {
+    margin: 0;
+    padding: .1rem 1rem;
+}
+
+.stackedit__toc ul a {
+    margin: .5rem 0;
+    padding: .5rem 1rem;
+}
+
+.stackedit__toc a {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+}
+
+@media (min-width:1060px) {
+    .stackedit__left {
+        display: block
+    }
+}
